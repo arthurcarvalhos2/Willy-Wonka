@@ -20,8 +20,14 @@
       "quantidade": "4",
       "foto": "",
       "idUsuario": "885a"
+    },
+    {
+      "nome": "Arthur 1",
+      "quantidade": "2",
+      "foto": "",
+      "idUsuario": "885a",
+      "id": "R14LD85"
     }
-
   ],
   "Usuario": [
     {
@@ -58,6 +64,13 @@
       "email": "wsquad4@gmai.com",
       "senha": "123",
       "foto": ""
+    },
+    {
+      "nome": "Arthur",
+      "email": "a@gmail.com",
+      "senha": "123",
+      "foto": "",
+      "id": "hteH6KD"
     }
   ]
 }

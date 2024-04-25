@@ -1,5 +1,5 @@
 import { useNavigation, useRoute } from "@react-navigation/native";
-import { ScrollView, ActivityIndicator } from 'react-native';
+import { ScrollView, ActivityIndicator , ImageBackground} from 'react-native';
 import { routesType } from "../../Routes/routes";
 import { StyledText, StyledTouchableOpacity, StyledView } from "./styles";
 import { GroupCard } from "../../Components/GroupCard";
@@ -68,6 +68,7 @@ export function Home() {
 
     return (
         <StyledView>
+
             <ScrollView
                 onScroll={({ nativeEvent }) => {
                     if (isCloseToBottom(nativeEvent) && !loading && !allGroupsLoaded) {
@@ -81,6 +82,7 @@ export function Home() {
                 ))}
                 {loading && <ActivityIndicator size="large" />}
             </ScrollView>
+        
         </StyledView>
-    )
-}
+    );
+};

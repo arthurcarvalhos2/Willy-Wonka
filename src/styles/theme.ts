@@ -9,7 +9,7 @@ export default {
         TEXT_PRIMARY: '#ffff',
         TEXT_SECUNDARY: '#000000',
 
-        ICON: '#6c2bc3'
+        ICON: '#F5F5DC'
 
     
     },

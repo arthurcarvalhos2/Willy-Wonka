@@ -26,21 +26,20 @@ function TabNavigator() {
             screenOptions={{
                 headerShown: false,
                 tabBarStyle: {
-                    backgroundColor: '#000000',
-                    height: 100
+                    backgroundColor: '#ffffff',
+                    height: 70
                 },
                 tabBarActiveTintColor: '#1D90F5',
                 tabBarLabelStyle: {
                     fontSize: 16
                 },
-            
+            tabBarShowLabel: false
             }}>
             <tab.Screen
                 name="Home"
                 component={Home}
                 options={{
                     headerRight: () => <HomeButton />,
-                    tabBarLabel: "Home",
                     tabBarIcon: () => {
                         return (
                             <MaterialCommunityIcons name="home-account" size={45} color="red" />
@@ -52,7 +51,6 @@ function TabNavigator() {
                 name="RegistrationGroup"
                 component={RegistrationGroup}
                 options={{
-                    tabBarLabel: 'Cadastrar Grupo',
                     tabBarIcon: () => {
                         return (
                             <MaterialCommunityIcons name="account-group" size={45} color="red" />

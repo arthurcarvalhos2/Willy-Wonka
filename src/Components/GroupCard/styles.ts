@@ -8,8 +8,8 @@ export const Card = styled.TouchableOpacity`
   align-items: center;
   margin-top: 15px;
 
-  width: 360px;
-  height: 140px;
+  width: 160px;
+  height: 80px;
   padding: 32px 24px;
   
   background-color: ${({ theme }) => theme.colors.ICON};
@@ -34,6 +34,6 @@ export const TextTitles = styled.Text`
 
 export const StyledImage = styled.Image`
   border-radius: 50px;
-  width: 100px;
-  height: 100px;
+  width: 20px;
+  height: 20px;
 `
