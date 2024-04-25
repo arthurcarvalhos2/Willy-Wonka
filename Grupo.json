@@ -1,0 +1,63 @@
+{
+  "Grupo": [
+    {
+      "id": "1",
+      "nome": "Grupo1",
+      "quantidade": "123",
+      "foto": "teste.png",
+      "idUsuario": "885a"
+    },
+    {
+      "id": "2",
+      "nome": "Grupo2",
+      "quantidade": "123",
+      "foto": "teste.png",
+      "idUsuario": "885a"
+    },
+    {
+      "id": "6152",
+      "nome": "Arthur",
+      "quantidade": "4",
+      "foto": "",
+      "idUsuario": "885a"
+    }
+
+  ],
+  "Usuario": [
+    {
+      "id": "1",
+      "nome": "Grupo1",
+      "email": "th@gmail.com",
+      "senha": "12345678",
+      "foto": "teste.png"
+    },
+    {
+      "id": "150a",
+      "nome": "Arthur",
+      "email": "arth@gmail.com",
+      "senha": "12345678",
+      "foto": ""
+    },
+    {
+      "id": "885a",
+      "nome": "a",
+      "email": "a@a",
+      "senha": "123",
+      "foto": ""
+    },
+    {
+      "id": "2ecf",
+      "nome": "a",
+      "email": "a@a",
+      "senha": "1234",
+      "foto": ""
+    },
+    {
+      "id": "12ec",
+      "nome": "Arthur",
+      "email": "wsquad4@gmai.com",
+      "senha": "123",
+      "foto": ""
+    }
+  ]
+}
